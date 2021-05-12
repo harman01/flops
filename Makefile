@@ -1,6 +1,6 @@
 CC?=		cc
 CFLAGS?=	# empty
-CFLAGS+=	-DUNIX -Wall -Wextra -pedantic
+CFLAGS+=	-DUNIX -O3 -Wall -Wextra -pedantic
 
 all: flops
 
